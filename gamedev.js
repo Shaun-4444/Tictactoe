@@ -134,6 +134,7 @@ function reset() {
     }
     document.getElementById('Score_P1').innerHTML = P1_score;
     document.getElementById('Score_P2').innerHTML = P2_score;
-
+    document.getElementById('play1').innerHTML = "Player 1";
+    document.getElementById('play2').innerHTML = "Player 2";
     Player_Won = NaN;
 }
