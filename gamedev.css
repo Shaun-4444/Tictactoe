@@ -2,9 +2,8 @@ html, body {
     margin: 0;
     height: 100%;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+   
+   
     background-color: black;
     background-image: url("background.gif");
     background-size: cover;
@@ -12,18 +11,48 @@ html, body {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
-    margin-top: 30px;
+}
+table
+{
+    border: 0px;
+    font-size: 35px;
+    border-spacing: 20px;
+    background-repeat: repeat;
+    background-image: url(score_b.gif);
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    background-position: center center;
 
 }
 
+#p1, #p2
+{
+    height: 40px;
+    width: 80px;
+}
+.big
+{
+
+    font-size: 45px;
+    margin: 0 auto;
+    padding-left: 0px;
+    width: 20%;
+    float: center;
+    position: absolute;
+
+}
 #announce
 {
     text-align: center;
     font-size: 45px;
     text-transform: uppercase;
-    background-repeat: repeat;
     transition: 2s;
+    background-repeat: repeat;
     background-image: url(Qkl9.gif);
     color: transparent;
     -moz-background-clip: text;
